@@ -117,3 +117,10 @@ details p { margin: 0 0 14px; }
   h1 { font-size: 28px; }
   section { padding: 18px 16px 8px; }
 }
+
+/* Language switch (English / Português) */
+.lang { display: flex; justify-content: flex-end; gap: 6px; padding-top: 18px; font-size: 13px; }
+.lang a, .lang span { padding: 4px 12px; border-radius: 999px; border: 1px solid var(--hairline); text-decoration: none; }
+.lang a { color: var(--text-muted); }
+.lang a:hover { border-color: var(--primary); color: var(--primary); }
+.lang span { background: var(--tint); border-color: var(--primary); color: var(--primary); font-weight: 700; }
